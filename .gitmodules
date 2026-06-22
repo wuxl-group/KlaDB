@@ -1,0 +1,12 @@
+[submodule "Benchmark/model/DeepKla"]
+	path = Benchmark/model/DeepKla
+	url = https://github.com/linDing-group/DeepKla.git
+[submodule "Benchmark/model/Auto-Kla"]
+	path = Benchmark/model/Auto-Kla
+	url = https://github.com/tubic/Auto-Kla.git
+[submodule "Benchmark/model/HybridKla"]
+	path = Benchmark/model/HybridKla
+	url = https://github.com/kongxianzw/HybridKla.git
+[submodule "Benchmark/model/PCBert-Kla"]
+	path = Benchmark/model/PCBert-Kla
+	url = https://github.com/ZhangHongqi215/PCBert-Kla.git

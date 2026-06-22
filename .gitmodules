@@ -1,0 +1,12 @@
+[submodule "DeepKla"]
+	path = DeepKla
+	url = https://github.com/linDing-group/DeepKla.git
+[submodule "Auto-Kla"]
+	path = Auto-Kla
+	url = https://github.com/tubic/Auto-Kla.git
+[submodule "HybridKla"]
+	path = HybridKla
+	url = https://github.com/kongxianzw/HybridKla.git
+[submodule "PCBert-Kla"]
+	path = PCBert-Kla
+	url = https://github.com/ZhangHongqi215/PCBert-Kla.git

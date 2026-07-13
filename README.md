@@ -7,7 +7,7 @@ Lactylation, a novel lactate-derived lysine post-translational modification (PTM
 
 
 # Study Dataset
-You can find them. [Dataset](https://github.com/wuxl-group/KlaDB/tree/main/Database/data)
+You can find them. [Dataset](https://github.com/wuxl-group/KlaDB/tree/main/Database)
 
 # Source Code
-You can find them. [Code](https://github.com/wuxl-group/KlaDB/tree/main/Benchmark/model)
+You can find them. [Code](https://github.com/wuxl-group/KlaDB/tree/main/KlaPredictionModels)

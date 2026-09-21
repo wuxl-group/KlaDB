@@ -1,0 +1,12 @@
+[submodule "Benchmark/kla_prediction_models/DeepKla"]
+	path = Benchmark/kla_prediction_models/DeepKla
+	url = https://github.com/linDing-group/DeepKla.git
+[submodule "Benchmark/kla_prediction_models/Auto-Kla"]
+	path = Benchmark/kla_prediction_models/Auto-Kla
+	url = https://github.com/tubic/Auto-Kla.git
+[submodule "Benchmark/kla_prediction_models/HybridKla"]
+	path = Benchmark/kla_prediction_models/HybridKla
+	url = https://github.com/kongxianzw/HybridKla.git
+[submodule "Benchmark/kla_prediction_models/PCBert-Kla"]
+	path = Benchmark/kla_prediction_models/PCBert-Kla
+	url = https://github.com/ZhangHongqi215/PCBert-Kla.git

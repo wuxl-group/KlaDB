@@ -1,0 +1,26 @@
+[
+  {
+    "model": "deepkla",
+    "source_file": "deepkla_train.fa",
+    "sha256": "2819fe14da1902dacd94f63725baf665ae4524be087886b78b81406dad1d9bd9",
+    "unique_training_sequences": 1839
+  },
+  {
+    "model": "autokla",
+    "source_file": "autokla_train.fa",
+    "sha256": "e002c055462b15e5d4870d25a8e5da6dc71a945c9672b8422804eb887b159381",
+    "unique_training_sequences": 17179
+  },
+  {
+    "model": "hybridkla",
+    "source_file": "hybridkla_train.csv",
+    "sha256": "8c479c1e46fe15fc50db146d09256dcbbb58073f796af90868f6ccf5f49097be",
+    "unique_training_sequences": 47004
+  },
+  {
+    "model": "pcbert",
+    "source_file": "pcbert_train.csv",
+    "sha256": "5a2f2f220c4761b963b9c4487573f4d6fad516d820ef29837c8553075fa05824",
+    "unique_training_sequences": 1839
+  }
+]

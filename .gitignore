@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+generated_figures/
+generated_analysis/
+background_proteomes/
+*.xlsx
+*.zip
+.env
+*.dump

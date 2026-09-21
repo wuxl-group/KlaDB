@@ -1,0 +1,14 @@
+file,field,definition
+KlaDB_full_curated_sites.csv.gz,site_id,Stable identifier of the KlaDB site record
+KlaDB_full_curated_sites.csv.gz,species,Scientific name of the source organism
+KlaDB_full_curated_sites.csv.gz,uniprot_id,UniProt accession mapped to the reported protein
+KlaDB_full_curated_sites.csv.gz,gene_name,Reported or mapped gene name
+KlaDB_full_curated_sites.csv.gz,protein_name,Reported or mapped protein name
+KlaDB_full_curated_sites.csv.gz,position,One-based lysine position in the protein sequence
+KlaDB_full_curated_sites.csv.gz,window_51,51-aa sequence window centered on the reported lysine; terminal positions may contain padding
+KlaDB_full_curated_sites.csv.gz,pmids,Semicolon-separated supporting PubMed identifiers
+KlaDB_full_curated_sites.csv.gz,dataset_codes,Semicolon-separated normalized study-dataset identifiers
+KlaDB_studies.csv,pmid,PubMed identifier
+KlaDB_studies.csv,dataset_code,Normalized identifier for a study dataset
+KlaDB_studies.csv,retained_protein_count,Proteins retained in KlaDB for the dataset
+KlaDB_studies.csv,retained_site_count,Site records retained in KlaDB for the dataset

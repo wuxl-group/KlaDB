@@ -1,13 +1,24 @@
-# KlaDB：A Multi‑species Database of Lysine Lactylation Sites with Benchmarking of Prediction Models
+# KlaDB public data and reproducibility resources
 
-Lactylation, a novel lactate-derived lysine post-translational modification (PTM), has emerged as a critical mechanistic link between cellular metabolism and epigenetic regulation. With the development of mass spectrometry (MS) techniques, a large number of lactylation sites have been identified. However, no dedicated, comprehensive lysine lactylation (Kla)-specific database has been established to date.	Here, we constructed KlaDB (Lysine Lactylation Database) ，which currently contains 64,072 experimentally validated lactylation sites across eight species. The database offers a user-friendly interactive interface that helps researchers to intuitively explore and retrieve comprehensive information associated with each Kla site. Furthermore, KlaDB incorporates a systematic multi-species benchmarking analysis of four published lysine lactylation (Kla) prediction models, offering guidance for users to select appropriate computational tools.
+This repository accompanies KlaDB, a manually curated multi-species database of experimentally reported lysine lactylation (Kla) sites.
 
-# Study Workflow
-<img width="2477" height="2110" alt="fig1-(1)" src="https://github.com/user-attachments/assets/7a2a5cf8-12e9-4173-8d74-df0a113daadf" />
+## Contents
 
+- `Database/`: 64,072 curated site records and metadata for 28 source studies.
+- `Motif/`: 21-aa Kla-centered windows suitable for motif analysis.
+- `Benchmark/`: the external leakage-screened benchmark, model scores, 30-seed 1:1 results, and sensitivity summaries.
+- `Scripts/`: motif-analysis and benchmark-preparation scripts.
 
-# Study Dataset
-You can find them. [Dataset](https://github.com/wuxl-group/KlaDB/tree/main/Database)
+## Access
 
-# Source Code
-You can find them. [Code](https://github.com/wuxl-group/KlaDB/tree/main/KlaPredictionModels)
+- KlaDB website: <https://kladb.wuxl-group.com>
+- Online data downloads: <https://kladb.wuxl-group.com/download>
+- Study provenance: <https://kladb.wuxl-group.com/studies>
+
+## Licenses
+
+Data files are released under CC BY 4.0; analysis code is released under the MIT License. See `DATA_LICENSE.md` and `LICENSE`.
+
+## Integrity
+
+`SHA256SUMS.txt` lists the checksum of every distributed file. No ZIP bundle is required: files can be downloaded directly from the repository.

@@ -1,0 +1,37 @@
+identity_threshold,scope,stage,positive,putative_negative,total,terminal_padded,unique_proteins
+0,all,after_exact_rules,19334,380118,399452,33606,15152
+0,all,raw_candidates,36716,608523,645239,49035,16678
+70,all,after_global_label_aware_clustering,1916,136246,138162,10815,11787
+70,Cavia porcellus,common_strict,33,6397,6430,509,711
+70,Glycine max,common_strict,77,1573,1650,270,227
+70,Homo sapiens,common_strict,578,72791,73369,4501,4436
+70,Mus musculus,common_strict,60,2476,2536,202,329
+70,Rattus norvegicus,common_strict,142,10189,10331,913,1539
+70,Sus scrofa,common_strict,302,13557,13859,2025,3267
+70,all,common_strict,1192,106983,108175,8420,10509
+70,autokla,model_specific,1653,123055,124708,9840,11279
+70,deepkla,model_specific,1914,136117,138031,10812,11781
+70,hybridkla,model_specific,1247,115380,116627,8944,10955
+70,pcbert,model_specific,1914,136117,138031,10812,11781
+80,Cavia porcellus,common_strict,40,7281,7321,580,756
+80,Glycine max,common_strict,78,1702,1780,292,229
+80,Homo sapiens,common_strict,593,74608,75201,4637,4501
+80,Mus musculus,common_strict,69,2684,2753,222,346
+80,Rattus norvegicus,common_strict,154,10814,10968,953,1602
+80,Sus scrofa,common_strict,337,14272,14609,2099,3373
+80,all,common_strict,1271,111361,112632,8783,10807
+80,autokla,model_specific,1698,125104,126802,9995,11399
+80,deepkla,model_specific,1915,136199,138114,10815,11785
+80,hybridkla,model_specific,1326,118916,120242,9263,11158
+80,pcbert,model_specific,1915,136199,138114,10815,11785
+90,Cavia porcellus,common_strict,58,9046,9104,741,802
+90,Glycine max,common_strict,81,1815,1896,307,230
+90,Homo sapiens,common_strict,682,81615,82297,5118,4703
+90,Mus musculus,common_strict,89,2865,2954,233,374
+90,Rattus norvegicus,common_strict,190,11450,11640,1005,1660
+90,Sus scrofa,common_strict,391,14860,15251,2158,3462
+90,all,common_strict,1491,121651,123142,9562,11231
+90,autokla,model_specific,1785,129629,131414,10317,11577
+90,deepkla,model_specific,1916,136236,138152,10815,11786
+90,hybridkla,model_specific,1523,126696,128219,9900,11408
+90,pcbert,model_specific,1916,136236,138152,10815,11786

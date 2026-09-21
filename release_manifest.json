@@ -1,0 +1,19 @@
+{
+  "database": "KlaDB",
+  "release": "2026.09.21",
+  "website": "https://kladb.wuxl-group.com",
+  "repository": "https://github.com/wuxl-group/KlaDB",
+  "data_license": "CC BY 4.0",
+  "code_license": "MIT",
+  "site_records": 64072,
+  "unique_proteins": 17759,
+  "species": 9,
+  "studies": 28,
+  "motif_21aa_windows": 61390,
+  "benchmark_samples": 108175,
+  "benchmark_positive": 1192,
+  "benchmark_putative_unlabeled_negative": 106983,
+  "primary_benchmark_ratio": "1:1",
+  "primary_benchmark_resamples": 30,
+  "zip_archives_distributed": false
+}

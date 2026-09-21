@@ -1,0 +1,153 @@
+{
+  "host_os": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 3060, 610.60, 12288 MiB",
+  "resampling_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "protein_bootstrap_iterations": 1000,
+  "models": [
+    {
+      "model": "DeepKla",
+      "source_status": "Published repository architecture and distributed weight file; not retrained",
+      "actual_inference_device": "CPU (CUDA 11 runtime unavailable to TensorFlow)",
+      "threshold": 0.5,
+      "window_conversion": "Padding symbols mapped to 0; U handled by the published DeepKla encoder",
+      "artifacts": [
+        {
+          "artifact_name": "51bp_rusuan.h5",
+          "sha256": "1b75a502b57b25d875232c7820f66dff33714890de5b2cfcfbadf3a7d2925103",
+          "bytes": 632184
+        }
+      ],
+      "environment": {
+        "python": "3.8.15",
+        "numpy": "1.24.4",
+        "pandas": "2.0.3",
+        "sklearn": "1.3.2",
+        "tensorflow": "2.10.0",
+        "torch": "not installed",
+        "transformers": "not installed",
+        "autogluon": "not installed"
+      },
+      "common_input_sha256": "1095700c2ee3db3a6c48a14ddaad272724eeb7356eb75d4c19e3a1c961b976c4",
+      "common_input_rows": 108175
+    },
+    {
+      "model": "Auto-Kla",
+      "source_status": "Published repository model directory; not retrained",
+      "actual_inference_device": "NVIDIA GeForce RTX 3060",
+      "threshold": 0.5,
+      "window_conversion": "51-aa source window used; padding retained according to model implementation",
+      "artifacts": [
+        {
+          "artifact_name": "model.ckpt",
+          "sha256": "f8bafa51f74ebb8098bfae316f02e3df9bc82a482be22a2d6755ae29bd7d9555",
+          "bytes": 435639729
+        }
+      ],
+      "environment": {
+        "python": "3.9.25",
+        "numpy": "1.21.6",
+        "pandas": "1.4.3",
+        "sklearn": "1.1.2",
+        "tensorflow": "not installed",
+        "torch": "1.12.0+cu113",
+        "transformers": "4.20.1",
+        "autogluon": "installed"
+      },
+      "common_input_sha256": "1095700c2ee3db3a6c48a14ddaad272724eeb7356eb75d4c19e3a1c961b976c4",
+      "common_input_rows": 108175
+    },
+    {
+      "model": "HybridKla",
+      "source_status": "Local meta-model reconstructed and trained from scores of the provided base models",
+      "actual_inference_device": "NVIDIA GeForce RTX 3060",
+      "threshold": 0.5,
+      "window_conversion": "51-aa source window used; padding retained according to model implementation",
+      "artifacts": [
+        {
+          "artifact_name": "HybridKla.pth",
+          "sha256": "0a25c35a771ca07b567bfe2434caaec9b947e23e35f211965b7595dbafb7164f",
+          "bytes": 49432
+        },
+        {
+          "artifact_name": "HybridKla.metadata.json",
+          "sha256": "464d0b03a4f940febc923b2f8cad8fb040cc5974a1c5a3c80840b93c740e2c77",
+          "bytes": 12206
+        },
+        {
+          "artifact_name": "model.safetensors",
+          "sha256": "87882c7ecbfd1fb9eb697965f9368556f151c4456e70de35e4008a6c4560faca",
+          "bytes": 594924252
+        }
+      ],
+      "environment": {
+        "python": "3.8.20",
+        "numpy": "1.24.4",
+        "pandas": "2.0.3",
+        "sklearn": "1.3.2",
+        "tensorflow": "not installed",
+        "torch": "2.4.1+cu118",
+        "transformers": "4.46.3",
+        "autogluon": "not installed"
+      },
+      "common_input_sha256": "1095700c2ee3db3a6c48a14ddaad272724eeb7356eb75d4c19e3a1c961b976c4",
+      "common_input_rows": 108175
+    },
+    {
+      "model": "PCBert-Kla",
+      "source_status": "Local PCBert-Kla model trained from the repository training data and code",
+      "actual_inference_device": "NVIDIA GeForce RTX 3060",
+      "threshold": 0.5,
+      "window_conversion": "U mapped to X for tokenizer/physicochemical compatibility; source window preserved",
+      "artifacts": [
+        {
+          "artifact_name": "pcbert_kla_best.pt",
+          "sha256": "78415e39e15e35ae3f29ac0016a85bcdcc6a7dedb2bd6cb5798e5ed89b40a3e6",
+          "bytes": 369888001
+        }
+      ],
+      "environment": {
+        "python": "3.8.20",
+        "numpy": "1.24.4",
+        "pandas": "2.0.3",
+        "sklearn": "1.3.2",
+        "tensorflow": "not installed",
+        "torch": "2.4.1+cu118",
+        "transformers": "4.46.3",
+        "autogluon": "not installed"
+      },
+      "common_input_sha256": "1095700c2ee3db3a6c48a14ddaad272724eeb7356eb75d4c19e3a1c961b976c4",
+      "common_input_rows": 108175
+    }
+  ]
+}

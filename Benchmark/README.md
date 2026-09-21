@@ -14,5 +14,16 @@ For the main comparison, every positive was paired with one putative/unlabeled n
 - `filtering_audit.csv`: sample counts through the leakage-control workflow.
 - `model_settings.json`: training-sequence provenance and checksums.
 - `model_environment.json`: model source, local reconstruction status, thresholds, frameworks, CUDA/GPU context, and input/weight checksums where available.
+- `kla_prediction_models/`: Git submodules that reference the upstream repositories for DeepKla, Auto-Kla, HybridKla, and PCBert-Kla at commits pinned by the parent KlaDB repository.
 
 The 1:5, 1:10, and all-candidate results are sensitivity analyses; the balanced 1:1 results are the primary comparison because the published models were generally developed and evaluated with approximately balanced classes.
+
+## Model source references
+
+Initialize the model submodules after cloning with:
+
+```bash
+git submodule update --init --recursive
+```
+
+The submodules preserve links to the original third-party projects and do not transfer their ownership to KlaDB. DeepKla and Auto-Kla were evaluated from their released repositories and available model artifacts. HybridKla was reconstructed locally, and PCBert-Kla was trained locally according to the published workflows. Consult `model_settings.json` and `model_environment.json` before attempting reproduction; a submodule checkout does not by itself guarantee the availability of every original checkpoint or a compatible runtime environment.

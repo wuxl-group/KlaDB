@@ -5,7 +5,7 @@ This repository accompanies KlaDB, a manually curated multi-species database of 
 ## Contents
 
 - `Database/`: 64,072 curated site records and metadata for 28 source studies.
-- `Motif/`: 21-aa Kla-centered windows suitable for motif analysis.
+- `Motif/`: 21-aa Kla-centered windows, the processing summary, and background-corrected taxonomic/species enrichment tables used for motif analysis.
 - `Benchmark/`: the external leakage-screened benchmark, model scores, 30-seed 1:1 results, sensitivity summaries, and pinned references to the four evaluated model repositories.
 - `Scripts/`: motif-analysis and benchmark-preparation scripts.
 

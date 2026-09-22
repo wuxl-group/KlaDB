@@ -1,0 +1,11 @@
+﻿Species,Raw sequences,Retained 21-aa peptides,Removed sequences,Retention rate (%)
+Cavia porcellus,1989,1848,141,92.91
+Frankliniella occidentalis,939,887,52,94.46
+Glycine max,783,745,38,95.15
+Homo sapiens,22650,21506,1144,94.95
+Mus musculus,2606,2478,128,95.09
+Oryza sativa,626,590,36,94.25
+Rattus norvegicus,10070,9557,513,94.91
+Sus scrofa,23514,22946,568,97.58
+Triticum aestivum,895,833,62,93.07
+Total,64072,61390,2682,95.81
